@@ -1,3 +1,7 @@
+### Note for SPF13 fork
+I have taken Peters excellent script and packaged it so that the git repo can be installed itself, without using the zip file. 
+I have an excellent .vim setup which is well organized using git and submodules which uses this. [spf13-vim](http://github.com/spf13/spf13-vim)
+
 # Automated tag generation and syntax highlighting in Vim
 
 [Vim](http://www.vim.org/) has long been my favorite text editor and combined with [Exuberant Ctags] [exuberant_ctags] it has the potential to provide most of what I expect from an [integrated development environment](http://en.wikipedia.org/wiki/Integrated_development_environment). Exuberant Ctags is the latest incarnation of a [family of computer programs](http://en.wikipedia.org/wiki/Ctags) that scan source code files to create an index of identifiers (tags) and where they are defined. Vim uses this index (a so-called tags file) to enable you to jump to the definition of any identifier using the [Control-\]](http://vimdoc.sourceforge.net/htmldoc/tagsrch.html#CTRL-]) mapping.
